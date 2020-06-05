@@ -2,11 +2,11 @@
 
 
 Instructions:
-  cd into My Poker Solution folder
+    cd into My Poker Solution folder
 
-  Run the command - java -jar PokerSolution.jar
+    Run the command - java -jar PokerSolution.jar
 
-  Alternatively - open project in Eclipse or Intelij
+    Alternatively - open project in Eclipse or Intelij
 
 
 
