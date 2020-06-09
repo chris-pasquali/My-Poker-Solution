@@ -21,33 +21,10 @@ public class Solution {
             PlayerHand player2 = new PlayerHand(player2Cards);
 
             if (player1.handType.ordinal() == player2.handType.ordinal()) {
-//                for (int i = 0; i < 5; ++i) {
-//                    if (player1.sortedCards[i] > player2.sortedCards[i]) {
-//                        player1Won++;
-//                    } else if (player2.sortedCards[i] > player1.sortedCards[i]) {
-//                        player2Won++;
-//                    }
-//                }
-                if (player1.sortedCards[0] > player2.sortedCards[0]) {
-                    player1Won++;
-                }  if (player1.sortedCards[1] > player2.sortedCards[1]) {
-                    player1Won++;
-                }  if (player1.sortedCards[2] > player2.sortedCards[2]) {
-                    player1Won++;
-                }  if (player1.sortedCards[3] > player2.sortedCards[3]) {
-                    player1Won++;
-                }  if (player1.sortedCards[4] > player2.sortedCards[4]) {
-                    player1Won++;
-                } else {
-                    if (player2.sortedCards[0] > player1.sortedCards[0]) {
-                        player2Won++;
-                    }  if (player2.sortedCards[1] > player1.sortedCards[1]) {
-                        player2Won++;
-                    }  if (player2.sortedCards[2] > player1.sortedCards[2]) {
-                        player2Won++;
-                    }  if (player2.sortedCards[3] > player1.sortedCards[3]) {
-                        player2Won++;
-                    }  if (player2.sortedCards[4] > player1.sortedCards[4]) {
+                for (int i = 0; i < 5; ++i) {
+                    if (player1.sortedCards[i] > player2.sortedCards[i]) {
+                        player1Won++;
+                    } else if (player2.sortedCards[i] > player1.sortedCards[i]) {
                         player2Won++;
                     }
                 }
