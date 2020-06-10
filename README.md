@@ -3,9 +3,9 @@
 
 Instructions:
 
-    cd into My Poker Solution folder
+    1. cd MyPokerSolution/src
 
-    Run the command - java -jar PokerSolution.jar
+    2. Run the command: java myPokerSolution.Solution
 
     Alternatively - open project in Eclipse or Intelij
 
