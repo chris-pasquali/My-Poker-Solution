@@ -40,6 +40,7 @@ public class Solution {
         System.out.println("Player 1: " + player1Won);
         System.out.println("Player 2: " + player2Won);
         myScanner.close();
+        
 	}
 
 }
